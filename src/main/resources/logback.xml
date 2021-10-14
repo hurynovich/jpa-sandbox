@@ -18,5 +18,6 @@
     <logger name="org.hibernate.annotations.common.Version" level="WARN"/>
     <logger name="org.hibernate.engine" level="WARN"/>
     <logger name="org.hibernate.dialect.Dialect" level="WARN"/>
+    <logger name="com.zaxxer.hikari" level="WARN"/>
 
 </configuration>
