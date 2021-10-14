@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>[%-5level] %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+    <logger name="org.hibernate.orm.connections.pooling" level="WARN"/>
+    <logger name="org.hibernate.orm.connections.access" level="WARN"/>
+    <logger name="org.hibernate.jpa.internal.util.LogHelper" level="WARN"/>
+    <logger name="org.hibernate.Version" level="WARN"/>
+    <logger name="org.hibernate.annotations.common.Version" level="WARN"/>
+    <logger name="org.hibernate.engine" level="WARN"/>
+    <logger name="org.hibernate.dialect.Dialect" level="WARN"/>
+
+</configuration>
