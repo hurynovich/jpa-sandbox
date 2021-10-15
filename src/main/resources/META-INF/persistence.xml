@@ -8,6 +8,8 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
         <class>orm.entity.Monkey</class>
+        <class>orm.entity.DocumentCopping</class>
+        <class>orm.entity.DocumentEmbedding</class>
 
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
